@@ -45,6 +45,10 @@ This project is to build a mini ads engine.  The engine takes an user's query st
 ## Usage
 Modify the sample_data.py and execute the following code.
 ```
+pip3 install -r requirements.txt
+```
+
+```
 from ad_engine import AdEngine
 engine = AdEngine()
 relevant_ad = engine.fetch_ad(query_string)
