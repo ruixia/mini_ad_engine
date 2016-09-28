@@ -2,27 +2,27 @@
 This project is to build a mini ads engine.  The engine takes an user's query string, executes the following tasks and returns one relevant ad.
 
 ```
-Parse Query
+1. Parse Query
 
     |
     |
     
-Select Ads  <------------------------- Ad Index
+2. Select Ads  <------------------------- Ad Index
     
     |
     |
     
-Filter Ads
+3. Filter Ads
     
     |
     |
     
-Rank Ads
+4. Rank Ads
     
     |
     |
     
-Select Top K Ads ----------------------> Pricing ---------------------> Return Ad
+5. Select Top K Ads ----------------------> 6. Pricing ---------------------> 7. Return Ad
 ```
 
 ## Classes
